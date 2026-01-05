@@ -1,7 +1,7 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Nice Otter — Immersive Resume',
+  title: '하천 수위 정보 알림 - River Level info',
   description: 'Senior Web Designer Immersive Resume',
 };
 
@@ -117,3 +117,4 @@ export default function RootLayout({
     </html>
   );
 }
+
