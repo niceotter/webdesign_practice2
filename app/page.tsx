@@ -16,8 +16,7 @@ export default function Home() {
         <div className="max-w-3xl text-center space-y-4 fade">
           <h2 className="text-4xl font-bold text-neonPurple">About Me</h2>
           <p className="text-gray-300">
-            {/*Senior Web Designer with a passion for immersive UI,*/}
-            {/*motion-driven storytelling, and experimental visuals.*/}
+            Opening Soon
           </p>
         </div>
       </section>
@@ -67,12 +66,13 @@ export default function Home() {
       <section className="h-screen flex items-center justify-center">
         <div className="text-center space-y-4 fade">
           <h2 className="text-4xl font-bold text-neonCyan">Contact</h2>
-          <p className="text-gray-400">hello@niceotter.design</p>
+          <p className="text-gray-400">Opening Soon</p>
         </div>
       </section>
     </>
   );
 }
+
 
 
 
