@@ -7,7 +7,7 @@ export default function Home() {
           id="heroText"
           className="text-6xl md:text-8xl font-bold neon-text"
         >
-          Nice Otter
+          Opening Soon
         </h1>
       </section>
 
@@ -73,3 +73,4 @@ export default function Home() {
     </>
   );
 }
+
