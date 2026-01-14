@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <title>지도</title>
+  <script
+    type="text/javascript"
+    src="https://map.vworld.kr/js/vworldMapInit.js.do?version=2.0&apiKey=DA227030-273E-37F4-A3DD-73D741FD3A5B&domain=localhost"
+  ></script>
+</head>
+<body style="margin:0">
+  <div id="vmap" style="width:100%;height:100vh"></div>
+
+  <script type="text/javascript">
+
+  vw.ol3.CameraPosition.zoom = 9;
+
+    vw.ol3.MapOptions = {
+      basemapType: vw.ol3.BasemapType.GRAPHIC,
+      controlDensity: vw.ol3.DensityType.EMPTY,
+      interactionDensity: vw.ol3.DensityType.BASIC,
+      controlsAutoArrange: true,
+      homePosition: vw.ol3.CameraPosition,
+      initPosition: vw.ol3.CameraPosition
+
+//      integerzoom: vw.ol3.CameraPosition.zoom.12,
+//      ol.Coordinatecenter: vw.ol3.CameraPosition.center,
+//      initPosition: vw.ol3.CameraPosition
+    };
+
+    new vw.ol3.Map("vmap", vw.ol3.MapOptions);
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
