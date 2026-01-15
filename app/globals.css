@@ -2,17 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  scroll-behavior: smooth;
+body {
+  background: #0a0a0a;
+  overflow-x: hidden;
+  color: white;
+}
+
+canvas {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+}
+
+section {
+  position: relative;
+  z-index: 1;
 }
 
 .neon-text {
   text-shadow:
-    0 0 10px rgba(168, 85, 247, 0.8),
-    0 0 20px rgba(34, 211, 238, 0.6);
-}
-
-.glass {
-  background: rgba(255,255,255,0.05);
-  backdrop-filter: blur(12px);
+    0 0 8px #a855f7,
+    0 0 16px #22d3ee;
 }
