@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 body {
-  background: #0a0a0a;
+  background: #f7f5f5;
   overflow-x: hidden;
-  color: white;
+  color: rgb(17, 4, 4);
 }
 
 canvas {
